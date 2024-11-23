@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+    background-color: #dee7ed;
+    width: 30vw;
+    height: 70vh;
+    margin: auto;
+    position: relative;
+    top: 100px;
+     display: grid;
+     gap: 5px;
+     padding: 20px;
+     border-radius: 3px;
+     box-shadow: 5px 5px 12px #ffffff,
+                5px 5px 12px rgba(0,0,0,.16);
+                background-color: #ecf0f3;
+}
+.form-Group{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.Container>.form-Group>button{
+    width: 25%;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset  5px 5px 12px rgba(0,0,0,.16);
+}
+input{
+    width: 100%;
+    border: 1px solid  rgb(236, 221, 221) ;
+    border-radius:2px ;
+    font-size: 40px;
+   text-align: right;
+   outline: none;
+   padding-right: 10px;
+   overflow: hidden;
+   box-shadow: inset -5px -5px 12px #ffffff,
+                inset  5px 5px 12px rgba(0,0,0,.16);
+                color: rgb(70, 70, 70);
+}
+.evaluate{
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                 inset  5px 5px 12px rgba(0,0,0,.16);
+}
+
+.Container>.form-Group>button:hover{
+    background-color: #acdae9;
+    transition: 0.2s;
+}
